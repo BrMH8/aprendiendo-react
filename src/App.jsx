@@ -1,6 +1,7 @@
 import { Botones } from './components/Botones.jsx';
 import { Ejercicio01 } from './components/ejercicio01.jsx';
 import { Ejercicio02 } from './components/Ejercicio02.jsx';
+import { Ejercicio03 } from './components/Ejercicio03.jsx';
 import { BotonGeneral } from './components/utils/BotonGeneral.jsx';
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <BotonGeneral />
         <Botones />
         <Ejercicio02 />
+        <Ejercicio03 />
       </div>
     </>
   )
