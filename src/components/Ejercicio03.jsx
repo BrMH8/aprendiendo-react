@@ -46,3 +46,5 @@ export const Ejercicio03 = () => {
     </>
   )
 }
+
+// un boton saludar y despedir saludar = Hola despedir = Adios estado = app utsh
