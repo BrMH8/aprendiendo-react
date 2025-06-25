@@ -1,7 +1,10 @@
 import { Botones } from './components/Botones.jsx';
+import { EjercicioUseState03 } from './components/Ejercicicios002/EjercicioUseState03.jsx';
+import { EjercicioUseState04 } from './components/Ejercicicios002/EjercicioUseState04.jsx';
 import { Ejercicio01 } from './components/ejercicio01.jsx';
 import { Ejercicio02 } from './components/Ejercicio02.jsx';
 import { Ejercicio03 } from './components/Ejercicio03.jsx';
+
 import { BotonGeneral } from './components/utils/BotonGeneral.jsx';
 function App() {
 
@@ -19,6 +22,9 @@ function App() {
         <Botones />
         <Ejercicio02 />
         <Ejercicio03 />
+        <EjercicioUseState03 />
+        <EjercicioUseState04 />
+        
       </div>
     </>
   )
